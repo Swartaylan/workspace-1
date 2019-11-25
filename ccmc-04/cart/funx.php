@@ -15,6 +15,7 @@ function createItems():array {
 		new Item("アコースティックギター", 200000),
 		new Item("エレキベース", 120000),
 		new Item("アップライトベース", 420000)
-	);	
+	);
+	return $items;
 }
 ?>

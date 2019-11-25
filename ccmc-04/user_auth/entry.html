@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1>簡単なユーザ認証</h1>
-	<form action="login.html" method="get">
+	<form action="login.php" method="get">
 		<table>
 			<tr>
 				<th>ユーザID</th>
