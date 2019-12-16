@@ -19,12 +19,26 @@ insert into products (id, name, price) values ('I-004', 'プリンタ', 9800);
 
 -- 以下のSQLはproductsテーブルのレコードについての処理として行う。
 -- exercise-S1. すべてのレコードのすべてのフィールドを抽出する
+select * from products;
+
 -- exercise-S2. すべてのレコードの製品ID（idフィールド）と製品名（nameフィールド）を抽出する
+select id, name from products;
+
 -- exercise-S3. 価格が40000円を超える製品のすべてのフィールドを抽出する
+select * from products where price > 40000;
+select * from products where price >= 40001;
+
 -- exercise-S4. 価格が3の倍数になっている製品の製品名（nameフィールド）と価格（priceフィールド）を抽出する
+select name, price from products where price % 3 = 0;
+
 -- exercise-S5. 製品名が「デ」で始まるレコードの製品名（nameフィールド）を抽出する
+select name from products where name like 'デ%';
+
 -- exercise-S6. 製品名が「PC」で終わるレコードのすべてのフィールドを抽出する
+select * from products where name like '%PC';
+
 -- exercise-S7. 製品名に「リン」が含まれているレコードのすべてのフィールドを抽出する
+select * from products where name like '%リン%';
 
 -- exercise-U1. 製品ID「I-004」の製品名を「インクジェットプリンタ」に変更する。
 -- exercise-U2. 製品IDが「I-004」の製品の価格を8800円に変更する。
