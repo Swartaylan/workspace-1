@@ -1,7 +1,11 @@
 /**
  * データベースの初期化
  *  データベース名：reviewdb
+<<<<<<< HEAD
  *  接続ユーザ：reviewdb_admin
+=======
+ *  接続ユーザ：reviewdb_admin@localhost
+>>>>>>> 0a06f08745b7c109ef06e7c4ff8ae41ea45322c5
  *  接続パスワード：admin123
  */ 
 drop database if exists reviewdb;
