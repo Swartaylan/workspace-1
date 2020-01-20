@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 /**
  * 【注意！】このプログラムを実行する前に、必ずsql/init_reviewdb.sqlを実行しておくこと！
@@ -6,7 +6,7 @@
 // データベース接続情報
 $dsn = "mysql:host=localhost;dbname=reviewdb";
 $user = "reviewdb_admin";
-$password = "admin123";
+$password = "admin1234";
 // データベースに接続
 $pdo = null;
 try {
@@ -84,4 +84,4 @@ try {
 	echo $e->getMessage();
 }
 ?>
->>>>>>> 0a06f08745b7c109ef06e7c4ff8ae41ea45322c5
+
